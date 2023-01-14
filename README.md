@@ -18,6 +18,8 @@
   * [thread_local](/variables/thread_local.test.zig)
 * Operators
   * [operators](/operators/operators.test.zig)
+* Arrays
+  * [arrays](/arrays/arrays.test.zig)
 
 ## LICENSE
 
