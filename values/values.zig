@@ -1,7 +1,6 @@
 // Top-level declaration are order-independent.
 const print = std.debug.print;
 const std = @import("std");
-const os = std.os;
 const assert = std.debug.assert;
 
 pub fn main() !void {
