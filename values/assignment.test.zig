@@ -6,27 +6,27 @@ const x = 1234;
 fn cannot_assign() !void {
     const z: i16 = 5678;
     // z += 1; // error: cannot assign to constant
-    expect(z == 5678) catch {};
+    try expect(z == 5678);
 }
 
 fn can_assign() !void {
     var z: i16 = 5678;
     z += 1;
-    expect(z == 5679) catch {};
+    try expect(z == 5679);
 }
 
 /// This is not allowed because the compiler cannot prove that z is initialized
 // fn cannot_initialize() !void {
 //     var z: i16;
 //     z = 5678;
-//     expect(z == 5678) catch {};
+//     try expect(z == 5678);
 // }
 
 /// Instead of that, use `undefined` as default value
 fn can_initialize() !void {
     var z: i16 = undefined;
     z = 5678;
-    expect(z == 5678) catch {};
+    try expect(z == 5678);
 }
 
 test "assignment" {
