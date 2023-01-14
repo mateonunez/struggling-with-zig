@@ -21,6 +21,7 @@
 * Arrays
   * [arrays](/arrays/arrays.test.zig)
   * [multidimensionals](/arrays/multidimensionals.test.zig)
+  * [sentinels-terminated](/arrays/sentinels-terminated.test.zig)
 
 ## LICENSE
 
