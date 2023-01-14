@@ -8,6 +8,7 @@
   * [values](/values/values.zig)
   * [primitives](/values/primitives.zig)
   * [string-literals (test)](/values/string-literals.test.zig)
+  * [assignment (test)](/values/assignment.test.zig)
 
 ## LICENSE
 
