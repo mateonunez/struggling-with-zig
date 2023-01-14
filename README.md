@@ -9,6 +9,13 @@
   * [primitives](/values/primitives.zig)
   * [string_literals (test)](/values/string_literals.test.zig)
   * [assignment (test)](/values/assignment.test.zig)
+* Variables
+  * [container_level](/variables/container_level.zig)
+  * [identifiers](/variables/identifiers.zig)
+  * [locals](/variables/locals.zig)
+  * [namespaced_container_level](/variables/namespaced_container_level.zig)
+  * [static_locals](/variables/static_locals.zig)
+  * [thread_local](/variables/thread_local.zig)
 
 ## LICENSE
 
