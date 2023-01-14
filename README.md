@@ -2,6 +2,7 @@
 
 * [hello-world](/hello-world)
 * [values](/values)
+* [primitives](/primitives)
 
 ## LICENSE
 
