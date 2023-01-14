@@ -20,6 +20,7 @@
   * [operators](/operators/operators.test.zig)
 * Arrays
   * [arrays](/arrays/arrays.test.zig)
+  * [multidimensionals](/arrays/multidimensionals.test.zig)
 
 ## LICENSE
 
