@@ -1,0 +1,29 @@
+{
+  "name": "wasi",
+  "version": "1.0.0",
+  "description": "```sh zig build-exe -O ReleaseSmall -target wasm32-wasi fibonacci.zig ```",
+  "main": "fibonacci.js",
+  "scripts": {
+    "test": "node fibonacci.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateonunez/struggling-with-zig.git"
+  },
+  "keywords": [
+    "zig",
+    "javascript",
+    "wasm",
+    "wasi"
+  ],
+  "author": "@mateonunez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateonunez/struggling-with-zig/issues"
+  },
+  "homepage": "https://github.com/mateonunez/struggling-with-zig#readme",
+  "dependencies": {
+    "@wasmer/wasi": "^1.2.2",
+    "wasi": "^0.0.6"
+  }
+}

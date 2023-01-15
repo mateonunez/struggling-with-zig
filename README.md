@@ -24,7 +24,7 @@
   * [sentinels-terminated](/arrays/sentinels-terminated.test.zig)
 * WebAssembly
   * [freestanding](/wasm/freestanding/README.md)
-  * 
+  * [wasi](/wasm/wasi/README.md)
 
 ## LICENSE
 
