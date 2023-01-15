@@ -1,5 +1,4 @@
 const std = @import("std");
-
 fn fibonacci(n: u32) u32 {
     if (n == 0) return 0;
     if (n == 1) return 1;
@@ -8,7 +7,11 @@ fn fibonacci(n: u32) u32 {
 
 pub fn main() !void {
     const stdout = std.io.getStdOut().writer();
-    var x: u32 = 5;
+    const args = try std.process.argsAlloc(std.heap.page_allocator);
 
+    var x: u32 = undefined;
+    if (args.len > 1) {
+        x = try std.fmt.parseInt(u32, args[1], 10);
+    }
     try stdout.print("fibonacci({}) = {}\n", .{ x, fibonacci(x) });
 }

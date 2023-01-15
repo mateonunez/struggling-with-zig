@@ -6,7 +6,10 @@ const { WASI, init } = require("@wasmer/wasi");
 
   const wasi = new WASI({
     env: {},
-    args: [],
+    args: [
+      "fibonacci",
+      "10",
+    ],
   });
 
   const buffer = readFileSync("./fibonacci.wasm");
